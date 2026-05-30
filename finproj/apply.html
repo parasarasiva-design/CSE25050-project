@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apply Now - Amrita Vishwa Vidyapeetham University</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="loader"><div class="spinner"></div></div>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo"><span class="logo-circle">A</span> Amrita Vishwa Vidyapeetham</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="placements.html">Placements</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="apply.html" class="apply-btn">Apply Now</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="mode-toggle" id="modeToggle">🌙</button>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <header class="banner">
+    <h1>Admission Application</h1>
+    <p>Take the first step towards a brighter future.</p>
+  </header>
+
+  <div class="apply-wrap reveal">
+    <div class="apply-card">
+      <h2>Apply Now</h2>
+      <p class="sub">Fill out the form below and we'll get back within 48 hours.</p>
+      <form id="applyForm">
+        <input type="text" name="name" placeholder="Full Name *" required />
+        <input type="email" name="email" placeholder="Email Address *" required />
+        <input type="tel" name="phone" placeholder="Phone Number (10 digits) *" required />
+        <select name="course" required>
+          <option value="">Select Course *</option>
+          <option>Computer Science</option>
+          <option>Artificial Intelligence</option>
+          <option>Data Science</option>
+          <option>Cyber Security</option>
+          <option>Mechanical Engineering</option>
+          <option>Civil Engineering</option>
+          <option>Electrical Engineering</option>
+          <option>MBA</option>
+          <option>Biotechnology</option>
+          <option>B.Com</option>
+          <option>Psychology</option>
+          <option>Media Studies</option>
+        </select>
+        <textarea name="address" rows="3" placeholder="Full Address"></textarea>
+        <button type="submit">Submit Application</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Success popup -->
+  <div class="popup" id="popup">
+    <div class="popup-box">
+      <div class="check">✓</div>
+      <h3>Application Submitted!</h3>
+      <p>Thank you for applying. Our admissions team will contact you within 48 hours.</p>
+      <button onclick="closePopup()">OK</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-grid">
+      <div><h4>Amrita Vishwa Vidyapeetham</h4><p>A multi-campus university committed to excellence.</p><div class="socials"><a href="#">📘</a><a href="#">🐦</a><a href="#">📷</a><a href="#">▶️</a></div></div>
+      <div><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="courses.html">Courses</a></li><li><a href="placements.html">Placements</a></li><li><a href="events.html">Events</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Our Campuses</h4><ul><li>Coimbatore</li><li>Bengaluru</li><li>Chennai</li><li>Kochi</li><li>Mysuru</li><li>Amaravati</li><li>Faridabad</li><li>Nagercoil</li><li>Madurai</li><li>Delhi</li></ul></div>
+      <div><h4>Newsletter</h4><p>Subscribe for updates.</p><form class="newsletter" onsubmit="event.preventDefault(); alert('✅ Subscribed!'); this.reset();"><input type="email" placeholder="Your email" required /><button type="submit">Join</button></form></div>
+    </div>
+    <div class="copyright">© 2025 Amrita Vishwa Vidyapeetham University.</div>
+  </footer>
+  <button id="topBtn">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Placements - Amrita Vishwa Vidyapeetham University</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="loader"><div class="spinner"></div></div>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo"><span class="logo-circle">A</span> Amrita Vishwa Vidyapeetham</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="placements.html">Placements</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="apply.html" class="apply-btn">Apply Now</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="mode-toggle" id="modeToggle">🌙</button>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <header class="banner">
+    <h1>Placements &amp; Careers</h1>
+    <p>Where talent meets opportunity.</p>
+  </header>
+
+  <section class="achievements reveal">
+    <div class="section-title"><h2>Placement Statistics</h2></div>
+    <div class="counter-grid">
+      <div class="counter-box"><h2 class="counter" data-target="8000">0</h2><p>Total Placements</p></div>
+      <div class="counter-box"><h2 class="counter" data-target="450">0</h2><p>Recruiters</p></div>
+      <div class="counter-box"><h2 class="counter" data-target="42">0</h2><p>Highest Package (LPA)</p></div>
+      <div class="counter-box"><h2 class="counter" data-target="8">0</h2><p>Average Package (LPA)</p></div>
+    </div>
+  </section>
+
+  <section class="reveal">
+    <div class="section-title"><h2>Top Recruiters</h2></div>
+    <div class="recruiters">
+      <div class="recruiter">Google</div>
+      <div class="recruiter">Microsoft</div>
+      <div class="recruiter">Amazon</div>
+      <div class="recruiter">TCS</div>
+      <div class="recruiter">Infosys</div>
+      <div class="recruiter">Wipro</div>
+      <div class="recruiter">Accenture</div>
+      <div class="recruiter">Deloitte</div>
+      <div class="recruiter">Cognizant</div>
+      <div class="recruiter">Capgemini</div>
+      <div class="recruiter">IBM</div>
+      <div class="recruiter">Oracle</div>
+    </div>
+  </section>
+
+  <section class="testimonials reveal">
+    <div class="section-title"><h2>Student Success Stories</h2></div>
+    <div class="slider">
+      <div class="slide active">
+        <img src="images/student1.jpg" alt="" />
+        <p>"I got placed at Google with a 38 LPA package. The placement cell helped me prepare end-to-end."</p>
+        <h4>— Aarav Sharma, B.Tech CSE</h4>
+      </div>
+      <div class="slide">
+        <img src="images/student2.jpg" alt="" />
+        <p>"Microsoft hired me right out of my internship. So grateful to my faculty mentors!"</p>
+        <h4>— Sneha Reddy, B.Tech AI</h4>
+      </div>
+      <div class="slide">
+        <img src="images/student3.jpg" alt="" />
+        <p>"From a small town to Deloitte's analytics team — Amrita Vishwa Vidyapeetham made it possible."</p>
+        <h4>— Rahul Iyer, MBA</h4>
+      </div>
+      <div class="slider-btns">
+        <button onclick="prevSlide()">‹</button>
+        <button onclick="nextSlide()">›</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div><h4>Amrita Vishwa Vidyapeetham</h4><p>A multi-campus university committed to excellence.</p><div class="socials"><a href="#">📘</a><a href="#">🐦</a><a href="#">📷</a><a href="#">▶️</a></div></div>
+      <div><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="courses.html">Courses</a></li><li><a href="placements.html">Placements</a></li><li><a href="events.html">Events</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Our Campuses</h4><ul><li>Coimbatore</li><li>Bengaluru</li><li>Chennai</li><li>Kochi</li><li>Mysuru</li><li>Amaravati</li><li>Faridabad</li><li>Nagercoil</li><li>Madurai</li><li>Delhi</li></ul></div>
+      <div><h4>Newsletter</h4><p>Subscribe for updates.</p><form class="newsletter" onsubmit="event.preventDefault(); alert('✅ Subscribed!'); this.reset();"><input type="email" placeholder="Your email" required /><button type="submit">Join</button></form></div>
+    </div>
+    <div class="copyright">© 2025 Amrita Vishwa Vidyapeetham University.</div>
+  </footer>
+  <button id="topBtn">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Amrita Vishwa Vidyapeetham University</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="loader"><div class="spinner"></div></div>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo"><span class="logo-circle">A</span> Amrita Vishwa Vidyapeetham</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="placements.html">Placements</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="apply.html" class="apply-btn">Apply Now</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="mode-toggle" id="modeToggle">🌙</button>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <header class="banner">
+    <h1>About Our University</h1>
+    <p>30 years of academic excellence, research and values.</p>
+  </header>
+
+  <section class="reveal">
+    <div class="about-grid">
+      <div class="about-img"><img src="images/about.jpg" alt="University" /></div>
+      <div class="about-text">
+        <h3>Our Mission</h3>
+        <p>To provide world-class education accessible to all, while nurturing strong values, creativity and social responsibility.</p>
+        <h3>Our Vision</h3>
+        <p>To be among the top 100 universities in the world by 2030 — known for excellence, ethics, and inclusivity.</p>
+        <h3>Our History</h3>
+        <p>Founded in 1994 with just 200 students, today we serve over 25,000 students across 10 campuses in India.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="courses-section reveal">
+    <div class="section-title"><h2>Director's Message</h2></div>
+    <div class="apply-card" style="max-width:800px; margin:0 auto;">
+      <p style="font-style:italic; line-height:1.8; color:var(--muted);">"At Amrita Vishwa Vidyapeetham, we believe every student carries a spark. Our role is to fan that spark into a flame that lights up the world. Welcome to a place where dreams take shape."</p>
+      <h4 style="margin-top:18px; color:var(--maroon);">— Dr. R. Krishnan, Director</h4>
+    </div>
+  </section>
+
+  <section class="achievements reveal">
+    <div class="section-title"><h2>Our Achievements</h2></div>
+    <div class="counter-grid">
+      <div class="counter-box"><h2 class="counter" data-target="25000">0</h2><p>Students</p></div>
+      <div class="counter-box"><h2 class="counter" data-target="1500">0</h2><p>Faculty</p></div>
+      <div class="counter-box"><h2 class="counter" data-target="100">0</h2><p>Awards Won</p></div>
+      <div class="counter-box"><h2 class="counter" data-target="30">0</h2><p>Years</p></div>
+    </div>
+  </section>
+
+  <section class="reveal">
+    <div class="section-title"><h2>Campus Life Gallery</h2></div>
+    <div class="gallery-grid">
+      <div class="item"><img src="images/gallery1.jpg" alt=""/></div>
+      <div class="item"><img src="images/gallery2.jpg" alt=""/></div>
+      <div class="item"><img src="images/gallery3.jpg" alt=""/></div>
+      <div class="item"><img src="images/gallery4.jpg" alt=""/></div>
+      <div class="item"><img src="images/gallery5.jpg" alt=""/></div>
+      <div class="item"><img src="images/gallery6.jpg" alt=""/></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <h4>Amrita Vishwa Vidyapeetham</h4>
+        <p>A multi-campus university committed to excellence.</p>
+        <div class="socials"><a href="#">📘</a><a href="#">🐦</a><a href="#">📷</a><a href="#">▶️</a></div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="courses.html">Courses</a></li><li><a href="placements.html">Placements</a></li><li><a href="events.html">Events</a></li><li><a href="contact.html">Contact</a></li></ul>
+      </div>
+      <div>
+        <h4>Our Campuses</h4>
+        <ul><li>Coimbatore</li><li>Bengaluru</li><li>Chennai</li><li>Kochi</li><li>Mysuru</li><li>Amaravati</li><li>Faridabad</li><li>Nagercoil</li><li>Madurai</li><li>Delhi</li></ul>
+      </div>
+      <div>
+        <h4>Newsletter</h4>
+        <p>Subscribe for updates.</p>
+        <form class="newsletter" onsubmit="event.preventDefault(); alert('✅ Subscribed!'); this.reset();">
+          <input type="email" placeholder="Your email" required />
+          <button type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="copyright">© 2025 Amrita Vishwa Vidyapeetham University.</div>
+  </footer>
+  <button id="topBtn">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Amrita Vishwa Vidyapeetham University</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="loader"><div class="spinner"></div></div>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo"><span class="logo-circle">A</span> Amrita Vishwa Vidyapeetham</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="placements.html">Placements</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="apply.html" class="apply-btn">Apply Now</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="mode-toggle" id="modeToggle">🌙</button>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <header class="banner">
+    <h1>Get in Touch</h1>
+    <p>We'd love to hear from you.</p>
+  </header>
+
+  <section class="reveal">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3 style="color:var(--maroon); margin-bottom:18px;">Contact Information</h3>
+        <p><strong>📍 Address</strong>Amrita Vishwa Vidyapeetham University, Main Campus, Coimbatore - 641112, Tamil Nadu, India</p>
+        <p><strong>📞 Phone</strong>+91 422 268 5000</p>
+        <p><strong>📧 Email</strong>info@brighthorizon.edu.in</p>
+        <p><strong>🕒 Office Hours</strong>Mon - Sat, 9:00 AM - 5:00 PM</p>
+        <div class="map-placeholder">🗺️ Map will appear here</div>
+      </div>
+      <form id="contactForm">
+        <h3 style="color:var(--maroon); margin-bottom:10px;">Send Us a Message</h3>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="text" name="subject" placeholder="Subject" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="reveal" style="background: var(--gradient-soft);">
+    <div class="section-title"><h2>Frequently Asked Questions</h2></div>
+    <div class="faq">
+      <div class="faq-item"><h4>How do I apply for admission? <span>+</span></h4><p>Click "Apply Now" in the navbar, fill the form, and our team will get in touch within 48 hours.</p></div>
+      <div class="faq-item"><h4>Are scholarships available? <span>+</span></h4><p>Yes — merit-based and need-based scholarships are available for eligible students.</p></div>
+      <div class="faq-item"><h4>Is hostel accommodation provided? <span>+</span></h4><p>Yes, separate hostels for boys and girls are available across all campuses.</p></div>
+      <div class="faq-item"><h4>What is the placement rate? <span>+</span></h4><p>Our placement rate is over 95% across engineering and management programs.</p></div>
+      <div class="faq-item"><h4>Can international students apply? <span>+</span></h4><p>Absolutely — we have students from 30+ countries.</p></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div><h4>Amrita Vishwa Vidyapeetham</h4><p>A multi-campus university committed to excellence.</p><div class="socials"><a href="#">📘</a><a href="#">🐦</a><a href="#">📷</a><a href="#">▶️</a></div></div>
+      <div><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="courses.html">Courses</a></li><li><a href="placements.html">Placements</a></li><li><a href="events.html">Events</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Our Campuses</h4><ul><li>Coimbatore</li><li>Bengaluru</li><li>Chennai</li><li>Kochi</li><li>Mysuru</li><li>Amaravati</li><li>Faridabad</li><li>Nagercoil</li><li>Madurai</li><li>Delhi</li></ul></div>
+      <div><h4>Newsletter</h4><p>Subscribe for updates.</p><form class="newsletter" onsubmit="event.preventDefault(); alert('✅ Subscribed!'); this.reset();"><input type="email" placeholder="Your email" required /><button type="submit">Join</button></form></div>
+    </div>
+    <div class="copyright">© 2025 Amrita Vishwa Vidyapeetham University.</div>
+  </footer>
+  <button id="topBtn">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
