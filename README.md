@@ -74,21 +74,9 @@ project-folder/
 
 ---
 
-# 6. Screenshots
 
-(Home Page Screenshot)
 
-(About Page Screenshot)
-
-(Courses Page Screenshot)
-
-(Apply Page Screenshot)
-
-(Contact Page Screenshot)
-
----
-
-# 7. HTML Concepts Used
+# 6. HTML Concepts Used
 
 * Semantic Tags
 * Forms
@@ -99,7 +87,7 @@ project-folder/
 
 ---
 
-# 8. CSS Concepts Used
+# 7. CSS Concepts Used
 
 * Flexbox
 * Grid Layout
@@ -110,7 +98,7 @@ project-folder/
 
 ---
 
-# 9. JavaScript Concepts Used
+# 8. JavaScript Concepts Used
 
 * Form Validation
 * Counter Animation
@@ -120,7 +108,7 @@ project-folder/
 
 ---
 
-# 10. Challenges Faced
+# 9. Challenges Faced
 
 * Creating Responsive Layout
 * Designing Navigation Bar
@@ -129,13 +117,13 @@ project-folder/
 
 ---
 
-# 11. Learning Outcomes
+# 10. Learning Outcomes
 
 Through this project, I learned how to create a complete responsive website using HTML, CSS, and JavaScript. I also learned about website structure, styling techniques, responsiveness, and basic interactivity.
 
 ---
 
-# 12. Conclusion
+# 11. Conclusion
 
 The project successfully demonstrates a university website with modern design and multiple pages. It improves understanding of front-end web development and responsive website design.
 
