@@ -117,11 +117,6 @@ project-folder/
 
 ---
 
-# 10. Learning Outcomes
-
-Through this project, I learned how to create a complete responsive website using HTML, CSS, and JavaScript. I also learned about website structure, styling techniques, responsiveness, and basic interactivity.
-
----
 
 # 11. Conclusion
 
