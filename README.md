@@ -118,8 +118,4 @@ project-folder/
 ---
 
 
-# 11. Conclusion
 
-The project successfully demonstrates a university website with modern design and multiple pages. It improves understanding of front-end web development and responsive website design.
-
----
