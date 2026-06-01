@@ -2,10 +2,19 @@
 
 ## Submitted By
 
-Name: Siva Karthikeya
-Roll No: AV.SC.U4CSE25050
-Class: CSE  A
-Subject: user interface design
+
+SUBMTTED BY	
+NAME	S. SIVA KARTHIKEYA
+ROLL NO 	AV.SC.U4CSE25050
+YEAR/SEM/SWECTION	YEAR-1 / SEM-2 / CSE-A 
+CREDITS	03
+
+SUBMITTED TO	DR. RAJ KUMAR BATCHU
+DESIGNATION	ASST.PROFFESSOR
+DEPARTMENT	SCHOOL OF COMPUTING
+                                               
+
+
 
 ---
 
